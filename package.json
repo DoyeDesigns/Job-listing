@@ -5,7 +5,7 @@
   "source": "./src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "CI='' npm run build"
+    "build": "vercel build"
   },
   "keywords": [],
   "author": "",
