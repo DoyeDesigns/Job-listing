@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA;;;;AAKA","sources":["src/assets/style/style.css"],"sourcesContent":["p {\r\n    margin: 0;\r\n}\r\n\r\n.btn {\r\n    border-radius: 0;\r\n}\r\n\r\n\r\n.available-jobs {\r\n    margin-top: 9.375rem;\r\n}\r\n\r\n\r\n"],"names":[],"version":3,"file":"index.2ae929ef.css.map","sourceRoot":"/__parcel_source_root/"}

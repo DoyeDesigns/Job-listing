@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.654148d5.png">
+
+  <link rel="stylesheet" href="/index.4717fcfd.css">
+
+  <link rel="stylesheet" href="/index.2ae929ef.css">
+  
+  <title>Frontend Mentor | Job Listings</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>.attribution {
+  text-align: center;
+  font-size: 11px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+</style>
+</head>
+<header class="container-fluid d-flex justify-content-center bg-Desaturated-Dark-Cyan position-relative">
+  <picture>
+    <source media="(min-width:375px)" srcset="/bg-header-desktop.7aa85030.svg">
+    <img src="/bg-header-mobile.82df0357.svg" alt="" width="auto">
+  </picture>
+  <div id="filter-container" class="container d-flex justify-content-between bg-white p-3 position-absolute translate-middle top-100 start-50 rounded-2">
+    <div class="container row g-3">
+      <div class="filter-word col-auto d-flex p-0 me-3">
+        <div class="bg-Light-Grayish-Cyan-Filter-Tablets d-flex justify-content-between align-items-center rounded-1 w-auto">
+          <p class="px-2">Front</p> <button class="remove-filter btn d-flex align-items-center h-100 p-2 bg-Desaturated-Dark-Cyan rounded-end-1"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><path fill="#FFF" fill-rule="evenodd" d="M11.314 0l2.121 2.121-4.596 4.596 4.596 4.597-2.121 2.121-4.597-4.596-4.596 4.596L0 11.314l4.596-4.597L0 2.121 2.121 0l4.596 4.596L11.314 0z"></path></svg></button>
+        </div>  
+      </div>
+      <div class="filter-word col-auto d-flex p-0 me-3">
+        <p class="bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-start-1">Front</p> <button class="remove-filter btn d-flex align-items-center h-100 p-2 bg-Desaturated-Dark-Cyan rounded-end-1"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><path fill="#FFF" fill-rule="evenodd" d="M11.314 0l2.121 2.121-4.596 4.596 4.596 4.597-2.121 2.121-4.597-4.596-4.596 4.596L0 11.314l4.596-4.597L0 2.121 2.121 0l4.596 4.596L11.314 0z"></path></svg></button>
+      </div>
+      <div class="filter-word col-auto d-flex p-0 me-3">
+        <p class="bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-start-1">end</p> <button class="remove-filter btn d-flex align-items-center h-100 p-2 bg-Desaturated-Dark-Cyan rounded-end-1"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><path fill="#FFF" fill-rule="evenodd" d="M11.314 0l2.121 2.121-4.596 4.596 4.596 4.597-2.121 2.121-4.597-4.596-4.596 4.596L0 11.314l4.596-4.597L0 2.121 2.121 0l4.596 4.596L11.314 0z"></path></svg></button>
+      </div>
+      <div class="filter-word col-auto d-flex p-0 me-3">
+        <p class="bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-start-1">Fullstack</p> <button class="remove-filter btn d-flex align-items-center h-100 p-2 bg-Desaturated-Dark-Cyan rounded-end-1"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><path fill="#FFF" fill-rule="evenodd" d="M11.314 0l2.121 2.121-4.596 4.596 4.596 4.597-2.121 2.121-4.597-4.596-4.596 4.596L0 11.314l4.596-4.597L0 2.121 2.121 0l4.596 4.596L11.314 0z"></path></svg></button>
+      </div>
+      <div class="filter-word col-auto d-flex p-0 me-3">
+        <p class="bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-start-1">pan</p> <button class="remove-filter btn d-flex align-items-center h-100 p-2 bg-Desaturated-Dark-Cyan rounded-end-1"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><path fill="#FFF" fill-rule="evenodd" d="M11.314 0l2.121 2.121-4.596 4.596 4.596 4.597-2.121 2.121-4.597-4.596-4.596 4.596L0 11.314l4.596-4.597L0 2.121 2.121 0l4.596 4.596L11.314 0z"></path></svg></button>
+      </div>
+      <div class="filter-word col-auto d-flex p-0 me-3">
+        <p class="bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-start-1">JavaScript</p> <button class="remove-filter btn d-flex align-items-center h-100 p-2 bg-Desaturated-Dark-Cyan rounded-end-1"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><path fill="#FFF" fill-rule="evenodd" d="M11.314 0l2.121 2.121-4.596 4.596 4.596 4.597-2.121 2.121-4.597-4.596-4.596 4.596L0 11.314l4.596-4.597L0 2.121 2.121 0l4.596 4.596L11.314 0z"></path></svg></button>
+      </div>
+    </div>
+
+    <button class="btn order-last">Clear</button>
+  </div>
+</header>
+<body class="bg-Light-Grayish-Cyan-Background">
+  <main class="available-jobs container">
+      <div id="" class="company position-relative container bg-white rounded-1 pb-4">
+        <div class="imgs position-absolute translate-middle ms-5"><img src="/1727051-darui.37d65012.jpg" class="rounded-circle" alt="" style="width: 100px; height: 100px"></div>
+        <div class="company-name d-flex align-items-center pt-5">
+          <h1 class="fs-5 text-Desaturated-Dark-Cyan m-0 me-4">Photoshop</h1>
+          <span class="new bg-Desaturated-Dark-Cyan rounded-pill p-1 text-white fw-bold me-2">NEW!</span>
+          <span class="featured bg-Very-Dark-Grayish-Cyan rounded-pill p-1 text-white fw-bold">FEATURED</span>
+        </div>
+        <h2 class="role fs-5 fw-bold text-Very-Dark-Grayish-Cyan mt-2">Senior Frontend Developer</h2>
+        <div class="job-details d-flex align-items-center">
+          <span class="text-Dark-Grayish-Cyan fw-medium">1d ago</span>
+          <span class="dot d-block rounded-circle p-1 bg-Dark-Grayish-Cyan mx-2"></span>
+          <span class="text-Dark-Grayish-Cyan fw-medium">Full Time</span>
+          <span class="dot d-block rounded-circle p-1 bg-Dark-Grayish-Cyan mx-2"></span>
+          <span class="text-Dark-Grayish-Cyan fw-medium">USA only</span>
+        </div>
+        <hr>
+        <div class="filters row g-3">
+          <span class="col-auto d-flex justify-content-center align-items-center bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-2 text-center mx-2">
+            <p class="text-Desaturated-Dark-Cyan">Frontend</p>
+          </span>
+          <span class="col-auto d-flex justify-content-center align-items-center bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-2 text-center mx-2">
+            <p class="text-Desaturated-Dark-Cyan">Frontend</p>
+          </span> 
+          <span class="col-auto d-flex justify-content-center align-items-center bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-2 text-center mx-2">
+            <p class="text-Desaturated-Dark-Cyan">Frontend</p>
+          </span>
+          <span class="col-auto d-flex justify-content-center align-items-center bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-2 text-center mx-2">
+            <p class="text-Desaturated-Dark-Cyan">Front</p>
+          </span>
+          <span class="col-auto d-flex justify-content-center align-items-center bg-Light-Grayish-Cyan-Filter-Tablets p-2 rounded-2 text-center mx-2">
+            <p class="text-Desaturated-Dark-Cyan">end</p>
+          </span>
+        </div>
+      </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Edoye David Ogoba</a>
+    </div>
+  </main>
+  <script src="/index.e5ac7667.js" defer=""></script>
+</body>
+</html>

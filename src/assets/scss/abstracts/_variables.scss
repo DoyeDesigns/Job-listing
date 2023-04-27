@@ -1,0 +1,17 @@
+// Create your own map
+$custom-colors: (
+  "custom-color": #900,
+  "Desaturated-Dark-Cyan": #5ba4a4,
+  "Light-Grayish-Cyan-Background": #effafa,
+  "Light-Grayish-Cyan-Filter-Tablets": #eef6f6,
+  "Dark-Grayish-Cyan": #7b8e8e,
+  "Very-Dark-Grayish-Cyan": #2c3a3a
+);
+
+$custom-spacers: (
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+);
